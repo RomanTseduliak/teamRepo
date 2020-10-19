@@ -1,0 +1,27 @@
+body {
+  width: auto;
+  display: flex;
+  margin: 0 auto;
+}
+.header-container-social{
+  
+  background-color: cornsilk;
+  display: flex;
+  height: 50px;
+  font-size: 22px;
+  transform: scale(0.6);
+  font-family: cursive;
+ margin-left: 0%;
+}
+.header-container-social :hover {
+  color: burlywood;
+}
+.header-container-social-ico{
+  margin: 3px 10px 10px 0;
+}
+.header-container-social-tel{
+  color: white;
+}
+.header-container {
+  margin-left: 0%;
+}
