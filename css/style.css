@@ -234,3 +234,56 @@ main .clock-description {
     width: 100%;
 }
 
+.background-inner{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.background-inner--block{
+    margin: 0 60px;
+    padding: 0 15px;
+}
+
+.left-inner--top{
+    padding-bottom: 20px;
+}
+
+.footer-title{
+    font-family: "Oswald",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 8px;
+}
+
+.left-inner--bottom{
+    padding-bottom: 10px;
+    width: 320px;
+}
+
+.footer-placeholder{
+    padding: 6px 12px 6px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 48px;
+    color: #d0d0d0;
+    background-color: #111;
+    border: 1px solid #2d2d2d;
+    /* box-shadow: inset 1px 2px 0 rgba(0,0,0,.85); */
+}
+
+button.btn-submit.btn--square{
+    height: 50px;
+    width: 130px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #ab8e69;
+    border: 1px solid #ab8e69;#ab8e69
+}
+
+.centre-inner{
+    margin-left: 115px;
+}
