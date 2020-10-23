@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+.header-social-columns {
+    background: #0e0e0e;
+    height: 50px;
+}
+
+ul.header-menu {
+    margin: 0;
+    float: right;
+}
+
+ul.header-menu li {
+    display: inline-block;
+}
+
+.header-menu {
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+a.header-menu--items {
+    color: #bcbcbc;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: Helvetica;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.header-menu--items:hover {
+    color: white;
+}
+
+.header-main {
+    height: 120px;
+    background: #121212;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: inline;
+}
+
+.header-main--menu {
+    margin-right: 100px;
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-logo {
+    display: block;
+    padding-top: 40px;
+    padding-left: 85px;
+}
+
+.main-menu {
+    margin: 0;
+    display: inline;
+    padding-top: 50px;
+}
+
+ul.main-menu li {
+    display: inline;
+}
+
+a.menu-items {
+    color: white;
+    padding: 6px 12px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 6px;
+    transition: all .3s;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+.button-home {
+    color: #ab8e69;
+}
+
+.menu-items--active,
+.menu-items:hover {
+    color: #ab8e69;
+}
+
+.button-promotion {
+    font-size: 11px;
+    color: #0e0e0e;
+    background-color: #ab8e69;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.button-promotion:hover {
+    color: #bcbcbc;
+    background-color: #755831;
+    transition: all .4s;
+}
+
+.basket-button {
+    margin-top: 50px;
+}
+
+.header-photo {
+
+}
+
+.header-photo--img {
+    background-image: url(/img/shop-page--mainPhoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 320px;
+    min-width: 320px;
+}
+
+.container{
+    height: 100%;
+    margin: 0 60px;
+    padding: 0 15px;
+}
+
+.title-photo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.title-photo--shop{
+    color: white;
+    font-family: "Oswald",Helvetica,Arial,sans-serif;
+    font-size: 42px;
+    line-height: 64px;
+    font-weight: 400;
+    letter-spacing: 20px;
+}
+
+
