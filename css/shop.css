@@ -160,7 +160,6 @@ a.menu-items {
 .container-main--left {
     width: 75%;
     height: 100%;
-    /* background-color: white; */
     margin: 0 15px;
     padding: 0 15px;
 }
@@ -173,18 +172,6 @@ a.menu-items {
 .container-main--leftItems--inner {
     width: 100%;
     display: flex;
-}
-
-.container-main--right {
-    width: 25%;
-    height: 100%;
-    background-color: rgb(243, 243, 243);
-    margin: 0 15px;
-}
-
-.container-main--rightInner {
-    padding: 15px 15px;
-    box-sizing: border-box;
 }
 
 .clock {
@@ -228,6 +215,19 @@ a.menu-items {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.container-main--right {
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    margin: 0 15px;
+    box-shadow: 0 5px 0 r qgb(224, 224, 224);
+}
+
+.container-main--rightInner {
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+
 .topnav {
     background-color: #e9e9e9;
 }
@@ -240,6 +240,21 @@ a.menu-items {
     margin-right: 16px;
     margin-bottom: 20px;
     font-size: 17px;
+}
+
+.bottomLine{
+    height: 2px;
+    width: 50px;
+    background-color: #ab8e69;
+}
+
+.right-list--items ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.right-list--items li{
+    padding: 10px 0px;
 }
 
 
